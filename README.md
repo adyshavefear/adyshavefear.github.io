@@ -1,6 +1,6 @@
 # Adones Neto — Portfolio
 
-A small, responsive portfolio in Brazilian Portuguese, built with HTML and CSS. No dependencies, build step, tracking, or external fonts.
+A small, responsive portfolio in Brazilian Portuguese, built with HTML and CSS. No application dependencies, build step, tracking, or external font requests. Inter and JetBrains Mono are self-hosted with their OFL licenses.
 
 ## Preview
 
@@ -13,10 +13,10 @@ Open http://localhost:8080. Edit `dist/index.html` for content and `dist/style.c
 ## Contents
 
 - Introduction and technology focus
-- ABZSS, BetterTeaching, and Theater Management
+- ABZSS, Oracle PL/SQL Toolkit, BetterTeaching, and Theater Management
 - About and contact links
 
-Project visuals are illustrations, not screenshots or live database results. Contact links come from the existing GitHub profile README. Database capabilities are labeled as in development and awaiting real Oracle validation.
+The Black Reaper artwork is reused from the existing GitHub profile README. Terminal commands are illustrative examples, not live database results. Users who prefer reduced motion receive a static frame instead of the animated GIF. Contact links come from the existing GitHub profile README. Database capabilities are labeled as in development and awaiting real Oracle validation.
 
 ## Hosting
 
@@ -34,3 +34,9 @@ The repository includes `.github/workflows/pages.yml` to publish `dist/` after p
 For a repository named `adyshavefear.github.io`, the site will be served at `https://adyshavefear.github.io/`. For another repository name, GitHub Pages adds the repository name to the URL. All assets use relative paths to support both options.
 
 Workflow setup follows the [GitHub Pages documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages).
+
+## Visual direction
+
+The design follows the profile README: near-black background, red highlights, cyan terminal accents, and an Oracle/APEX focus. Original role, education, location and contact details are taken from that README.
+
+Image Gen concepts and implementation decisions are recorded in [docs/design/design-spec.md](docs/design/design-spec.md). The site remains native HTML/CSS; UI text is not embedded in screenshots.
