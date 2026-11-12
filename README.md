@@ -13,10 +13,12 @@ Open http://localhost:8080. Edit `dist/index.html` for content and `dist/style.c
 ## Contents
 
 - Introduction and technology focus
-- ABZSS, Oracle PL/SQL Toolkit, BetterTeaching, and Theater Management
+- Professional projects: RHCA and PROCON PMJP, with institutional context, role, contributions, and engineering challenges
+- Personal and academic projects: ABZSS, Oracle PL/SQL Toolkit, BetterTeaching, and Theater Management System
+- INOVATEC-JP professional experience (June 2026 – Present)
 - About and contact links
 
-The Black Reaper artwork is reused from the existing GitHub profile README. Terminal commands are illustrative examples, not live database results. Users who prefer reduced motion receive a static frame instead of the animated GIF. Contact links come from the existing GitHub profile README. Database capabilities are labeled as in development and awaiting real Oracle validation.
+The Black Reaper artwork is reused from the existing GitHub profile README. Terminal commands are illustrative examples, not live database results. Users who prefer reduced motion receive a static frame instead of the animated GIF. Contact links come from the existing GitHub profile README. ABZSS examples show commands available in the public repository; Oracle/APEX integrations are explicitly labeled as planned.
 
 ## Hosting
 
@@ -26,10 +28,9 @@ The Black Reaper artwork is reused from the existing GitHub profile README. Term
 
 The repository includes `.github/workflows/pages.yml` to publish `dist/` after pushes to the default branch.
 
-1. Create a public GitHub repository and push this project.
-2. In **Settings → Pages → Build and deployment**, select **GitHub Actions**.
-3. Run **Actions → Deploy portfolio to GitHub Pages → Run workflow**, or push another commit to the default branch.
-4. Open the URL shown in the successful deployment.
+1. Review the feature branch and open a pull request against `main` in the existing `adyshavefear/adyshavefear.github.io` repository.
+2. After approval, merge the pull request. The existing workflow publishes `dist/` only from the default branch.
+3. Open the URL shown in the successful deployment. Pages should remain configured to use **GitHub Actions**.
 
 For a repository named `adyshavefear.github.io`, the site will be served at `https://adyshavefear.github.io/`. For another repository name, GitHub Pages adds the repository name to the URL. All assets use relative paths to support both options.
 
@@ -37,6 +38,19 @@ Workflow setup follows the [GitHub Pages documentation](https://docs.github.com/
 
 ## Visual direction
 
-The design follows the profile README: near-black background, red highlights, cyan terminal accents, and an Oracle/APEX focus. Original role, education, location and contact details are taken from that README.
+The design follows the profile README: near-black background, red highlights, cyan terminal accents, and an Oracle/APEX focus. Education, location, and contact details are taken from that README; the current role and professional experience use the portfolio owner's supplied information.
 
 Image Gen concepts and implementation decisions are recorded in [docs/design/design-spec.md](docs/design/design-spec.md). The site remains native HTML/CSS; UI text is not embedded in screenshots.
+
+## Content verification
+
+Professional descriptions and the INOVATEC-JP title and dates come from the portfolio owner's supplied experience. Engineering challenges summarize those responsibilities; no measured outcomes or independent ownership are claimed. The institutional entries contain no source links, internal screenshots, schemas, endpoints, or government records.
+
+Public project descriptions were checked against their GitHub content:
+
+- [ABZSS](https://github.com/adyshavefear/abzss): commands, service/adapter separation, and Mocha/Chai tests.
+- [Theater Management System](https://github.com/adyshavefear/gerenciamento-teatro): Java 21, Swing, Hibernate/H2 persistence, business services, and JUnit tests.
+- [Oracle PL/SQL Toolkit](https://github.com/adyshavefear/oracle-plsql-toolkit): learning examples for business rules, auditing, analytical queries, and APEX REST integration.
+- [BetterTeaching](https://github.com/adyshavefear/BetterTeaching): Gemini image processing and Playwright-assisted grade entry with human review.
+
+There is no package manifest, build command, lint configuration, or automated test suite in this static site. Preview with the command above and check local assets, fragment links, project categories, and the Pages artifact path before publishing.
