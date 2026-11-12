@@ -21,9 +21,11 @@ Three design concepts generated with the built-in Image Gen tool are the impleme
 - About: two columns, facts and technology lines. Contact: open band, email and two social links. Footer: mark, phrase, back-to-top.
 - Mobile: stacked hero, terminal and projects; no horizontal overflow or hidden essential links. Reduced motion: no smooth scroll, static image instead of animated GIF.
 
-## Allowed hero copy
+## Allowed hero copy (English localization)
 
-ADONES. / Projetos / Sobre / Contato / GitHub / Adones Neto. / Banco de dados. / Código com propósito. / Desenvolvimento com Oracle, PL/SQL e APEX. Regras de negócio bem definidas e ferramentas para simplificar o trabalho no terminal. / Explorar projetos / Vamos conversar / THE BLACK REAPER / ADYSHAVEFEAR / DATABASE & DEVELOPMENT / Oracle / PL/SQL / APEX / Java / TypeScript / Python.
+ADONES. / Projects / About / Contact / GitHub / Adones Neto. / Databases. / Code with purpose. / Development with Oracle, PL/SQL, and APEX. Clear business logic and tools that simplify everyday work in the terminal. / Explore projects / Let's talk / THE BLACK REAPER / ADYSHAVEFEAR / DATABASE & DEVELOPMENT / Oracle / PL/SQL / APEX / Java / TypeScript / Python.
+
+The user requested English after the visual redesign. Original concept images retain Portuguese lettering as historical visual references; all visible text, accessibility labels, page language and metadata are localized in HTML. Layout, identity assets and contact/repository destinations are preserved.
 
 ## Intentional adaptations
 

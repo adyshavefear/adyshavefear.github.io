@@ -1,6 +1,6 @@
 # Adones Neto — Portfolio
 
-A small, responsive portfolio in Brazilian Portuguese, built with HTML and CSS. No application dependencies, build step, tracking, or external font requests. Inter and JetBrains Mono are self-hosted with their OFL licenses.
+A small, responsive portfolio in English, built with HTML and CSS. No application dependencies, build step, tracking, or external font requests. Inter and JetBrains Mono are self-hosted with their OFL licenses.
 
 ## Preview
 
