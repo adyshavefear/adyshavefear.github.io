@@ -1,0 +1,7 @@
+.DS_Store
+node_modules/
+*.log
+*.tar.gz
+
+# Sites identity is specific to its hosting provider
+.openai/
