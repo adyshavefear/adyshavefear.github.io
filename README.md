@@ -20,7 +20,7 @@ Project visuals are illustrations, not screenshots or live database results. Con
 
 ## Hosting
 
-`dist/` can be hosted as a static site. `.openai/hosting.json` identifies its Sites deployment. New Sites are private by default; review sharing settings before sending the hosted link to external visitors.
+`dist/` is published at https://adyshavefear.github.io/ using GitHub Pages. The default branch is `main`, and Pages uses GitHub Actions rather than publishing the repository root.
 
 ## GitHub Pages
 
